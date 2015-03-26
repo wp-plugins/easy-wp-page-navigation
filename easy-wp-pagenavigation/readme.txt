@@ -31,8 +31,19 @@ Please report any bugs, errors, warnings, code problems to support forum.
 `
 <?php echo easy_wp_pagenavigation(); ?>
 `
-With custom query:
-`$my_query = new WP_Query( $args )`
+Example for using with custom query:
+`<?php
+// You need protect against arbitrary paged values
+$paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
+
+$args = array(
+	'post_type' => 'post',
+	'posts_per_page' => 6,
+	'paged' => $paged,
+);
+
+$my_query = new WP_Query( $args );
+?>`
 You can do that like so:
 `
 <?php echo easy_wp_pagenavigation( $my_query ); ?>
