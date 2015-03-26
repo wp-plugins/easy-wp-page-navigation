@@ -57,6 +57,7 @@ You can do that like so:
 == Frequently Asked Questions ==
 
 = How to changing the CSS? =
+
 If you need to configure the CSS of this plugin, you can copy the `easy-wp-pagenavigation.css` file  from the plugin directory to your theme's directory and make your modifications there.
 
 Also, you can override the CSS of Easy WP Page Navigation in other CSS file.
