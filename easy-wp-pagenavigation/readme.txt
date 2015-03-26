@@ -20,7 +20,7 @@ To using it in your blog, see the [installation instructions](http://wordpress.o
 
 Support is handled in the [WordPress forums](http://wordpress.org/support/plugin/easy-wp-page-navigation). Please note that support is limited.
 
-Please report any bugs, errors, warnings, code problems to support forum or send an email to me.
+Please report any bugs, errors, warnings, code problems to support forum.
 
 == Installation ==
 
