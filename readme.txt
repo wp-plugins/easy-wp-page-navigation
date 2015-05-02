@@ -1,7 +1,7 @@
 === Easy WP Page Navigation ===
 Contributors: bboy8k
 Donate link: http://wordpress.org/
-Tags: easy wp page navigation, page navigation, page navigation in wordpress, taxonomies, admin, interface
+Tags: easy wp page navigation, page navigation, page navigation in wordpress, taxonomies, admin, wp pagenavi, easy wp pagenavi, pagination wordpress, pagination wp, wp_pagenavi, easy add pagination, pagination plugin wordpress, wp-pagenavi plugin, page navigation wordpress, add pagination to wordpress, wordpress pagination, wordpress pagination plugin
 Requires at least: 3.0
 Tested up to: 4.2
 Stable tag: 1.0
