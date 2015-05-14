@@ -3,7 +3,7 @@
 Plugin Name: Easy WP Page Navigation
 Plugin URI: http://bigdigital.vn/
 Description: Easy add paging navigation to your theme
-Version: 1.0
+Version: 1.1
 Author: KanG
 Author URI: http://bigdigital.vn/
 License: GPLv2 or later
