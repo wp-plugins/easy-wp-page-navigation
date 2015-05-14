@@ -4,7 +4,7 @@ Donate link: http://wordpress.org/
 Tags: easy wp page navigation, page navigation, page navigation in wordpress, taxonomies, admin, wp pagenavi, easy wp pagenavi, pagination wordpress, pagination wp, wp_pagenavi, easy add pagination, pagination plugin wordpress, wp-pagenavi plugin, page navigation wordpress, add pagination to wordpress, wordpress pagination, wordpress pagination plugin
 Requires at least: 3.0
 Tested up to: 4.2
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,6 +14,9 @@ Easy to add page navigation in your blog
 
 This plugin will create a new page navigation. Easy to use and custom it.
 With this plugin, you don't worry about paging in your blog.
+
+Multiple styles for navigation, you can see in [Screenshots](https://wordpress.org/plugins/easy-wp-page-navigation/screenshots/)
+
 To using it in your blog, see the [installation instructions](http://wordpress.org/plugins/easy-wp-page-navigation/installation/)
 
 = Support =
@@ -51,8 +54,11 @@ You can do that like so:
 == Screenshots ==
 
 1. Default styling
-2. Gerenal options
-3. Fill posts per page number for your taxonomies
+2. Square styling
+3. Circle styling
+4. Diamond square styling
+5. Gerenal options
+6. Fill posts per page number for your taxonomies
 
 == Frequently Asked Questions ==
 
