@@ -4,7 +4,7 @@ Donate link: http://wordpress.org/
 Tags: easy wp page navigation, page navigation, page navigation in wordpress, taxonomies, admin, wp pagenavi, easy wp pagenavi, pagination wordpress, pagination wp, wp_pagenavi, easy add pagination, pagination plugin wordpress, wp-pagenavi plugin, page navigation wordpress, add pagination to wordpress, wordpress pagination, wordpress pagination plugin
 Requires at least: 3.0
 Tested up to: 4.2
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -71,6 +71,10 @@ Also, you can override the CSS of Easy WP Page Navigation in other CSS file.
 Do it, you won't lose your changes when you update this plugin.
 
 == Changelog ==
+= 1.1 =
+*Tweak: Some CSS page numbers
+
+* New: Add multiple styles for plugin
 
 = 1.0 =
 * Just release 1.0
