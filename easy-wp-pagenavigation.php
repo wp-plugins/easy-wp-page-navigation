@@ -35,7 +35,7 @@ if ( ! class_exists( 'Easy_WP_Page_Navigation' ) ) :
 		/**
 		 * Global plugin version
 		 */
-		static $version = '1.0';
+		static $version = '1.1';
 
 		/**
 		 * Easy_WP_Page_Navigation Constructor.
