@@ -72,7 +72,7 @@ Do it, you won't lose your changes when you update this plugin.
 
 == Changelog ==
 = 1.1 =
-*Tweak: Some CSS page numbers
+* Tweak: Some CSS page numbers
 
 * New: Add multiple styles for plugin
 
