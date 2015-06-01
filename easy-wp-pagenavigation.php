@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Easy WP Page Navigation
-Plugin URI: http://bigdigital.vn/
+Plugin URI: http://withemes.com/
 Description: Easy add paging navigation to your theme
 Version: 1.1
 Author: KanG
-Author URI: http://bigdigital.vn/
+Author URI: http://withemes.com/
 License: GPLv2 or later
 Text Domain: easy-wp-page-navigation
 
