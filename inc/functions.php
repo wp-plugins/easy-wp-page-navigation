@@ -53,12 +53,12 @@ if ( ! function_exists( 'easy_wp_pagenavigation' ) ) {
 			$return = '';
 			$return .= '<div class="easy-wp-page-navigation align-' . $align . $style . '"><ul class="easy-wp-page-nav">';
 			if ( $current_page > 1 && ! empty( $text_first_page ) )
-				$return .= '<li><a class="page-numbers first-page-link" href="' . esc_url( get_pagenum_link( 1 ) ) . '">' . $text_first_page . '</a></li>';
+				$return .= '<li class="first-page"><a class="page-numbers first-page-link" href="' . esc_url( get_pagenum_link( 1 ) ) . '">' . $text_first_page . '</a></li>';
 			foreach ( $paginations as $nav ) {
 				$return .= '<li>' . $nav . '</li>';
 			}
 			if ( $current_page != $custom_query->max_num_pages && ! empty( $text_last_page ) )
-				$return .= '<li><a class="page-numbers last-page-link" href="' . esc_url( get_pagenum_link( $custom_query->max_num_pages ) ) . '">' . $text_last_page . '</a></li>';
+				$return .= '<li class="last-page"><a class="page-numbers last-page-link" href="' . esc_url( get_pagenum_link( $custom_query->max_num_pages ) ) . '">' . $text_last_page . '</a></li>';
 			$return .= '</ul></div>';
 
 			return $return;

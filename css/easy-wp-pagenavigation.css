@@ -183,3 +183,55 @@ ul.easy-wp-page-nav li:last-child {
 .easy-wp-page-navigation.style-diamond-square a.last-page-link:hover {
 	color: #000;
 }
+
+/* ================ Responsive design on mobile ================ */
+@media screen and (max-width: 767px) and (min-width: 480px) {
+	.easy-wp-page-navigation.style-diamond-square ul > li > a,
+	.easy-wp-page-navigation.style-diamond-square ul > li > span {
+		width: 24px;
+		height: 24px;
+		line-height: 22px;
+	}
+	.easy-wp-page-navigation.style-diamond-square a > span,
+	.easy-wp-page-navigation.style-diamond-square span > span {
+		margin-top: -1px;
+	}
+}
+@media screen and (max-width: 479px) {
+	ul.easy-wp-page-nav li {
+		margin: 0 2px 0 0;
+	}
+	.easy-wp-page-navigation a,
+	.easy-wp-page-navigation span {
+		padding: 4px 6px 5px;
+	}
+	.easy-wp-page-navigation a.prev,
+	.easy-wp-page-navigation a.next {
+		display: none;
+	}
+	.easy-wp-page-navigation.style-circle a,
+	.easy-wp-page-navigation.style-circle span,
+	.easy-wp-page-navigation.style-square a,
+	.easy-wp-page-navigation.style-square span {
+		width: 24px;
+		height: 24px;
+		line-height: 22px;
+	}
+	.easy-wp-page-navigation.style-diamond-square ul.easy-wp-page-nav li {
+		margin: 5px;
+	}
+	.easy-wp-page-navigation.style-diamond-square ul.easy-wp-page-nav li.first-page,
+	.easy-wp-page-navigation.style-diamond-square ul.easy-wp-page-nav li.last-page{
+		display: none;
+	}
+	.easy-wp-page-navigation.style-diamond-square ul > li > a,
+	.easy-wp-page-navigation.style-diamond-square ul > li > span {
+		width: 24px;
+		height: 24px;
+		line-height: 22px;
+	}
+	.easy-wp-page-navigation.style-diamond-square a.prev,
+	.easy-wp-page-navigation.style-diamond-square a.next {
+		display: inline-block;
+	}
+}
