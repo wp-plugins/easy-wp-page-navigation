@@ -4,7 +4,7 @@ Donate link: http://wordpress.org/
 Tags: easy wp page navigation, page navigation, page navigation in wordpress, taxonomies, admin, wp pagenavi, easy wp pagenavi, pagination wordpress, pagination wp, wp_pagenavi, easy add pagination, pagination plugin wordpress, wp-pagenavi plugin, page navigation wordpress, add pagination to wordpress, wordpress pagination, wordpress pagination plugin
 Requires at least: 3.0
 Tested up to: 4.2
-Stable tag: 1.1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,11 +19,13 @@ Multiple styles for navigation, you can see in [Screenshots](https://wordpress.o
 
 To using it in your blog, see the [installation instructions](http://wordpress.org/plugins/easy-wp-page-navigation/installation/)
 
+To support is better, visit my website: [http://pencidesign.com/](http://pencidesign.com/)
+
 = Support =
 
-Support is handled in the [WordPress forums](http://wordpress.org/support/plugin/easy-wp-page-navigation). Please note that support is limited.
+We have a support forum [here](http://support.pencidesign.com/).
 
-Please report any bugs, errors, warnings, code problems to support forum.
+You need a theme, see [our products](http://themeforest.net/user/pencidesign/portfolio?rel=pencidesign)
 
 == Installation ==
 
@@ -71,6 +73,10 @@ Also, you can override the CSS of Easy WP Page Navigation in other CSS file.
 Do it, you won't lose your changes when you update this plugin.
 
 == Changelog ==
+= 1.2 =
+* Fixed: Some bug in front-end
+* Add: Easy to support by one click on plugins page
+
 = 1.1.1 =
 * Fixed: Easy WP Page Navigation on mobile
 

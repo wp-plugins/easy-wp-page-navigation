@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: Easy WP Page Navigation
-Plugin URI: http://withemes.com/
+Plugin URI: http://pencidesign.com/
 Description: Easy add paging navigation to your theme
-Version: 1.1.1
-Author: KanG
-Author URI: http://withemes.com/
+Version: 1.2
+Author: PenciDesign
+Author URI: http://pencidesign.com/
 License: GPLv2 or later
 Text Domain: easy-wp-page-navigation
 
-Copyright @2015  KanG  (email: phamanhtuan1208@gmail.com)
+Copyright @2015  PenciDesign  (email: pencidesign@gmail.com)
 */
 
 // Exit if accessed directly
@@ -203,25 +203,32 @@ if ( ! class_exists( 'Easy_WP_Page_Navigation' ) ) :
 		}
 
 		/**
-		 * Display a Settings url on the main plugins page
+		 * Applied to the list of links to display on the plugins page
 		 *
 		 * @access public
 		 *
-		 * @param  array $links
-		 * @param  string $file
-		 *
+		 * @param  array $actions
+		 * @param  string $plugin_file
 		 * @return array
-		 * @since  1.0
+		 * @since  1.2
 		 */
-		public function add_settings_links( $links, $file ) {
+		public function add_settings_links( $actions, $plugin_file ) {
 
-			if ( $file == plugin_basename( __FILE__ ) ) {
-				$plugin_link = '<a href="' . admin_url( 'options-general.php?page=easy-wp-pagenavigation' ) . '">' . __( 'Settings', EWPN ) . '</a>';
-				// make the 'Settings' link appear first
-				array_unshift( $links, $plugin_link );
+			if ( ! isset( $plugin ) )
+				$plugin = plugin_basename( __FILE__ );
+			if ( $plugin == $plugin_file ) {
+
+				$settings     = array( 'settings' => '<a style="color: #ff0000;" href="' . admin_url( 'options-general.php?page=easy-wp-pagenavigation' ) . '">' . __( 'Settings', EWPN ) . '</a>' );
+				$support_link = array( 'support' => '<a style="color: #ff0000;" href="http://support.pencidesign.com/" target="_blank">' . __( 'Support', EWPN ) . '</a>' );
+				$more_link    = array( 'more' => '<a style="color: #ff0000;" href="http://themeforest.net/user/pencidesign/portfolio" target="_blank">' . __( 'Need A Theme', EWPN ) . '</a>' );
+
+				$actions = array_merge( $settings, $actions );
+				$actions = array_merge( $support_link, $actions );
+				$actions = array_merge( $more_link, $actions );
+
 			}
 
-			return $links;
+			return $actions;
 		}
 
 		/**
