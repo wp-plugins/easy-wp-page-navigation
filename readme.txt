@@ -23,9 +23,9 @@ To support is better, visit my website: [http://pencidesign.com/](http://pencide
 
 = Support =
 
-We have a support forum [here](http://support.pencidesign.com/).
+Our have a support forum [here](http://support.pencidesign.com/).
 
-You need a theme, see [our products](http://themeforest.net/user/pencidesign/portfolio?rel=pencidesign)
+You need a theme? see [our premium themes](http://themeforest.net/user/pencidesign/portfolio?rel=pencidesign).
 
 == Installation ==
 
