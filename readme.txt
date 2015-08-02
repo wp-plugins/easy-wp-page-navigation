@@ -19,7 +19,7 @@ Multiple styles for navigation, you can see in [Screenshots](https://wordpress.o
 
 To using it in your blog, see the [installation instructions](http://wordpress.org/plugins/easy-wp-page-navigation/installation/)
 
-To support is better, visit my website: [http://pencidesign.com/](http://pencidesign.com/)
+Subscribe our newsletter [here](http://pencidesign.com/#footer-subscribe)
 
 = Support =
 
