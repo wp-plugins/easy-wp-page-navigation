@@ -21,6 +21,10 @@ To using it in your blog, see the [installation instructions](http://wordpress.o
 
 Subscribe our newsletter [here](http://pencidesign.com/#footer-subscribe)
 
+You need a theme? see [our premium themes](http://themeforest.net/user/pencidesign/portfolio?rel=pencidesign).
+
+You need a nice wordpress slider plugin? see [Penci Slider](https://wordpress.org/plugins/penci-slider/) free plugin.
+
 = Support =
 
 Our have a support forum [here](http://support.pencidesign.com/).
