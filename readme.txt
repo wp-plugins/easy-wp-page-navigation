@@ -15,15 +15,15 @@ Easy to add page navigation in your blog
 This plugin will create a new page navigation. Easy to use and custom it.
 With this plugin, you don't worry about paging in your blog.
 
-Multiple styles for navigation, you can see in [Screenshots](https://wordpress.org/plugins/easy-wp-page-navigation/screenshots/)
-
-To using it in your blog, see the [installation instructions](http://wordpress.org/plugins/easy-wp-page-navigation/installation/)
-
 Subscribe our newsletter [here](http://pencidesign.com/#footer-subscribe)
 
 You need a theme? see [our premium themes](http://themeforest.net/user/pencidesign/portfolio?rel=pencidesign).
 
 You need a nice wordpress slider plugin? see [Penci Slider](https://wordpress.org/plugins/penci-slider/) free plugin.
+
+Multiple styles for navigation, you can see in [Screenshots](https://wordpress.org/plugins/easy-wp-page-navigation/screenshots/)
+
+To using it in your blog, see the [installation instructions](http://wordpress.org/plugins/easy-wp-page-navigation/installation/)
 
 = Support =
 
