@@ -4,7 +4,7 @@ Donate link: http://themeforest.net/user/pencidesign/portfolio?rel=pencidesign
 Tags: easy wp page navigation, page navigation, page navigation in wordpress, taxonomies, admin, wp pagenavi, easy wp pagenavi, pagination wordpress, pagination wp, wp_pagenavi, easy add pagination, pagination plugin wordpress, wp-pagenavi plugin, page navigation wordpress, add pagination to wordpress, wordpress pagination, wordpress pagination plugin
 Requires at least: 3.0
 Tested up to: 4.2
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -75,6 +75,9 @@ Also, you can override the CSS of Easy WP Page Navigation in other CSS file.
 Do it, you won't lose your changes when you update this plugin.
 
 == Changelog ==
+= 1.3 =
+* Improvement: Allow HTML to custom text for First Page, Last Page, Prev Page, Next Page
+
 = 1.2 =
 * Fixed: Some bug in front-end
 * Add: Easy to support by one click on plugins page

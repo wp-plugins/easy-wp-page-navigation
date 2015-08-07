@@ -16,10 +16,10 @@ if ( ! function_exists( 'easy_wp_pagenavigation' ) ) {
 		global $wp_query;
 		// Get your options
 		$options         = get_option( EWPN_ST );
-		$text_first_page = ! empty ( $options['first_text'] ) ? esc_html( $options['first_text'] ) : '';
-		$text_last_page  = ! empty ( $options['last_text'] ) ? esc_html( $options['last_text'] ) : '';
-		$text_prev_page  = ! empty ( $options['prev_text'] ) ? esc_html( $options['prev_text'] ) : '&laquo;';
-		$text_next_page  = ! empty ( $options['next_text'] ) ? esc_html( $options['next_text'] ) : '&raquo;';
+		$text_first_page = ! empty ( $options['first_text'] ) ? $options['first_text'] : '';
+		$text_last_page  = ! empty ( $options['last_text'] ) ? $options['last_text'] : '';
+		$text_prev_page  = ! empty ( $options['prev_text'] ) ? $options['prev_text'] : '&laquo;';
+		$text_next_page  = ! empty ( $options['next_text'] ) ? $options['next_text'] : '&raquo;';
 		$style           = isset( $options['style'] ) ? ' style-' . esc_html( $options['style'] ) : ' style-default';
 		$align           = ! empty ( $options['align'] ) ? $options['align'] : 'left';
 

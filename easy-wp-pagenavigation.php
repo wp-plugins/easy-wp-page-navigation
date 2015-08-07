@@ -3,7 +3,7 @@
 Plugin Name: Easy WP Page Navigation
 Plugin URI: http://pencidesign.com/
 Description: Easy add paging navigation to your theme
-Version: 1.2
+Version: 1.3
 Author: PenciDesign
 Author URI: http://pencidesign.com/
 License: GPLv2 or later
